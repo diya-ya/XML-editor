@@ -1,0 +1,18 @@
+{
+  "name": "xml-editor",
+  "version": "1.0.0",
+  "description": "XML Editor with React frontend and C# backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-frontend": "cd frontend && npm install",
+    "dev": "concurrently \"npm run start\" \"cd backend && dotnet run\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["xml", "editor", "react", "csharp"],
+  "author": "",
+  "license": "MIT"
+}
